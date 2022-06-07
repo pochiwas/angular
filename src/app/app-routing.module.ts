@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ListadoDeHeroesComponent } from './listado-de-heroes/listado-de-heroes.component';
-import { HeroProfileComponent } from './hero-profile/hero-profile.component';
-import { ModalPollComponent } from './modal-poll/modal-poll.component';
+import { ListadoDeHeroesComponent } from './components/listado-de-heroes/listado-de-heroes.component';
+import { HeroProfileComponent } from './components/hero-profile/hero-profile.component';
+import { ModalPollComponent } from './components/modal-poll/modal-poll.component';
 
 const routes: Routes = [
   { path: 'listado-heroes', component: ListadoDeHeroesComponent},
